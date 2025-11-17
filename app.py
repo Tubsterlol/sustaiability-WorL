@@ -7,7 +7,7 @@ with open('lrmodel_sustainable.pkl','rb') as file:
     model = pickle.load(file)
     
 # Title
-st.title("Sustainability Megatron")
+st.title("Sustainability W or L")
 
 # User Inputs
 carbon_emissions = st.number_input("Carbon emissions amount: ", min_value = 0.0, format = "%f")
